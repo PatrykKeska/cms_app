@@ -11,7 +11,7 @@ module.exports = {
       lg: '976px',
       xl: '1440px',
     },
-    colors: {
+    extend: { colors: {
       "primary-dark": "#1f1f1f",
       primary: "#ffffff",
       highlight: {
@@ -23,8 +23,7 @@ module.exports = {
         light: "#e6e6e6",
       },
       action: "#3B82F6",
-    },
-    extend: {},
+    },},
   },
   plugins: [],
 }

@@ -13,12 +13,12 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a className='text-primary-dark' href="https://nextjs.org">Next.js!</a>
+          Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
 
         <p className={styles.description}>
           Get started by editing{' '}
-          <code className='bg-gray-600 p-2 rounded'>pages/index.tsx</code>
+          <code className='bg-gray-300 p-2 rounded'>pages/index.tsx</code>
         </p>
 
         <div className={styles.grid}>
