@@ -1,5 +1,5 @@
 import { NextPage } from 'next'
-import AdminNav from '../../components/common/AdminNav'
+import AdminNav from '../../layouts/AdminNav'
 
 interface Props {}
 
