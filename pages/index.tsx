@@ -1,5 +1,11 @@
+import AdminNav from '../layouts/AdminNav'
+
 const Home = () => {
-    return <div>home page</div>
+    return (
+        <div>
+            <AdminNav />
+        </div>
+    )
 }
 
 export default Home

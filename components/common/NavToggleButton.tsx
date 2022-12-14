@@ -19,7 +19,7 @@ const NavToggleButton: FC<Props> = ({
     return (
         <button
             onClick={() => toggleNav(isOpen, navRef, setOpen)}
-            className='w-10 self-end transition-all duration-500 ease-linear'
+            className='w-8 self-end transition-all duration-500 ease-linear'
         >
             {isOpen ? (
                 <BsFillArrowLeftCircleFill size={25} />
