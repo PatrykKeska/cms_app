@@ -18,6 +18,7 @@ import { Editor } from '@tiptap/core'
 import { getFocusedEditor } from '../../components/common/text_editor/EditorUtils'
 import InsertLink from '../../components/common/text_editor/Link/InsertLink'
 import { LinkOption } from '../../components/common/text_editor/Link/LinkForm'
+import EmbedYoutube from '../../components/common/text_editor/Toolbar/EmbedYoutube'
 interface Props {
     editor: Editor
 }
@@ -30,6 +31,10 @@ const ToolbarButtons: FC<Props> = ({ editor }): JSX.Element => {
         } else {
             commands.setLink({ href: `${url}` })
         }
+    }
+
+    const handleYoutubeEmbled = (url: string) => {
+        editor.chain().focus().setYoutubeVideo({ src: url }).run()
     }
 
     return (
@@ -111,9 +116,7 @@ const ToolbarButtons: FC<Props> = ({ editor }): JSX.Element => {
                 <BsImageFill />
             </Button>
 
-            <Button>
-                <BsYoutube />
-            </Button>
+            <EmbedYoutube onSubmit={handleYoutubeEmbled} />
         </>
     )
 }
