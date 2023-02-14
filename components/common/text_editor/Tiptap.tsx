@@ -2,6 +2,7 @@ import BubbleMenu from '@tiptap/extension-bubble-menu'
 import Link from '@tiptap/extension-link'
 import Placeholder from '@tiptap/extension-placeholder'
 import Underline from '@tiptap/extension-underline'
+import Youtube from '@tiptap/extension-youtube'
 import { useEditor, EditorContent, getMarkRange, Range } from '@tiptap/react'
 import StarterKit from '@tiptap/starter-kit'
 import { useEffect, useState } from 'react'
@@ -23,6 +24,11 @@ const Tiptap = () => {
             }),
             Placeholder.configure({
                 placeholder: "Let's create something amazing!",
+            }),
+            Youtube.configure({
+                width: 640,
+                height: 320,
+                HTMLAttributes: { class: 'mx-auto rounded' },
             }),
         ],
         editorProps: {
