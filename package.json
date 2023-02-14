@@ -10,6 +10,9 @@
     },
     "dependencies": {
         "@tiptap/core": "^2.0.0-beta.207",
+        "@tiptap/extension-bubble-menu": "^2.0.0-beta.209",
+        "@tiptap/extension-link": "^2.0.0-beta.209",
+        "@tiptap/extension-placeholder": "^2.0.0-beta.209",
         "@tiptap/extension-underline": "^2.0.0-beta.208",
         "@tiptap/react": "^2.0.0-beta.207",
         "@tiptap/starter-kit": "^2.0.0-beta.207",
