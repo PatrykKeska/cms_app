@@ -193,11 +193,6 @@
   resolved "https://registry.yarnpkg.com/@tiptap/core/-/core-2.0.0-beta.207.tgz#df41b1acb61375c6cc003aaa554e8d0360cf00a5"
   integrity sha512-mhXuTgVnZ4HuXhfz9vDUlcpklfQ7Iqeh3PcpT5avmV8Az8Oyxsb54IEdTer2sJrIAZc3YS2cxBG1vH0sMqwndw==
 
-"@tiptap/core@^2.0.0-beta.209":
-  version "2.0.0-beta.209"
-  resolved "https://registry.yarnpkg.com/@tiptap/core/-/core-2.0.0-beta.209.tgz#fd0edb8f87a5eea70c6a11e0d7e628738a10ef3f"
-  integrity sha512-DOOzfo2XKD5Qt2oEGW33/6ugwSnvpl4WbxtlKdPadLoApk6Kja3K1Eps3pihBgIGmo4tkctkCzmj8wNWS7KeWg==
-
 "@tiptap/extension-blockquote@^2.0.0-beta.207":
   version "2.0.0-beta.207"
   resolved "https://registry.yarnpkg.com/@tiptap/extension-blockquote/-/extension-blockquote-2.0.0-beta.207.tgz#f1739417b63478891fb8c9e44cb2bc4bce047b4b"
@@ -219,15 +214,12 @@
     prosemirror-view "^1.28.2"
     tippy.js "^6.3.7"
 
-"@tiptap/extension-bubble-menu@^2.0.0-beta.209":
-  version "2.0.0-beta.209"
-  resolved "https://registry.yarnpkg.com/@tiptap/extension-bubble-menu/-/extension-bubble-menu-2.0.0-beta.209.tgz#dcef008f84286c7719f43e54ebdd7de778837974"
-  integrity sha512-tceZAuDpy3J96uGyCzpJFD3fHABJDTJTq5E0hm+TRQT+eVGVqZI0PE3/4yVFgkCshioTuJq8veMDFcqNsSkKsQ==
+"@tiptap/extension-bubble-menu@^2.0.0-beta.217":
+  version "2.0.0-beta.217"
+  resolved "https://registry.yarnpkg.com/@tiptap/extension-bubble-menu/-/extension-bubble-menu-2.0.0-beta.217.tgz#c72e1d9dba18f2cbe45400002e3649618670eaf3"
+  integrity sha512-f52hjIzNbvAJy0P3pTf6sv/65XlMU1LCLXam4VCTkYJ2HHVvW+LZcu+dG1M8YmGkM9l+6dQPs5L2rriAQDXt+w==
   dependencies:
-    "@tiptap/core" "^2.0.0-beta.209"
     lodash "^4.17.21"
-    prosemirror-state "^1.4.1"
-    prosemirror-view "^1.28.2"
     tippy.js "^6.3.7"
 
 "@tiptap/extension-bullet-list@^2.0.0-beta.207":
@@ -333,6 +325,11 @@
   version "2.0.0-beta.208"
   resolved "https://registry.yarnpkg.com/@tiptap/extension-underline/-/extension-underline-2.0.0-beta.208.tgz#2f90a36df0f6b42c2a7a46fb92134cfb15dc914b"
   integrity sha512-hz4SCviVMRzfih9z3A5byU9N8MKdlMmvQifnm8nMebpMSi7bU1Hv5nBb0KG9u9FhniFD+eZYGy8YMkczbYGKyg==
+
+"@tiptap/extension-youtube@^2.0.0-beta.217":
+  version "2.0.0-beta.217"
+  resolved "https://registry.yarnpkg.com/@tiptap/extension-youtube/-/extension-youtube-2.0.0-beta.217.tgz#4e2f8e10f8a7a9c6c8a1b0a69e7cf3dd94b979d9"
+  integrity sha512-PBSmf80Fqf/lK2A3krtc04YgvLfY5tf/GMWr9Pc47pGTPWKnS9p7zT2Cql58pElKZXMh/rf8vmF+9gt8X/OFZQ==
 
 "@tiptap/react@^2.0.0-beta.207":
   version "2.0.0-beta.207"
