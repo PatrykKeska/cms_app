@@ -10,4 +10,15 @@ const getLabel = (editor: Editor): string=> {
     return 'Paragraph'
 }
 
-export{getFocusedEditor, getLabel}
+const validURL = (link:string) : string => {
+    let url
+    try{
+        url = new URL(link)
+    }catch(e){
+        url = new URL('https://' + link); 
+    }
+    return url.origin
+
+}
+
+export{getFocusedEditor, getLabel, validURL}
