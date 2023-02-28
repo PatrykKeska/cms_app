@@ -6,6 +6,7 @@ import Youtube from '@tiptap/extension-youtube'
 import { useEditor, EditorContent, getMarkRange, Range } from '@tiptap/react'
 import StarterKit from '@tiptap/starter-kit'
 import { useEffect, useState } from 'react'
+import GalleryModal from './GalleryModal'
 import EditLink from './Link/EditLink'
 import Toolbar from './Toolbar/Toolbar'
 
@@ -52,12 +53,15 @@ const Tiptap = () => {
     }, [editor, selectionRange])
 
     return (
-        <div className='mx-auto flex max-w-4xl flex-col'>
-            <Toolbar editor={editor} />
-            <div className='mb-2 h-[1px] w-full bg-secondary-dark dark:bg-secondary-light' />
-            {editor ? <EditLink editor={editor} /> : null}
-            <EditorContent editor={editor} />
-        </div>
+        <>
+            <div className='mx-auto flex max-w-4xl flex-col'>
+                <Toolbar editor={editor} />
+                <div className='mb-2 h-[1px] w-full bg-secondary-dark dark:bg-secondary-light' />
+                {editor ? <EditLink editor={editor} /> : null}
+                <EditorContent editor={editor} />
+            </div>
+            <GalleryModal />
+        </>
     )
 }
 
